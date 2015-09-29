@@ -1,0 +1,23 @@
+{
+  "testId" : "6-tests.galentest-homepagemobile",
+  "name" : "tests.GalenTest#homePageMobile",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout /spec/home-page-mobile.spec",
+      "status" : "info",
+      "time" : 1443517304921,
+      "includedTags" : [ "tablet" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Header",
+        "objects" : [ ]
+      }, {
+        "name" : "Banner",
+        "objects" : [ ]
+      } ],
+      "objects" : { },
+      "screenshot" : "layout-2-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

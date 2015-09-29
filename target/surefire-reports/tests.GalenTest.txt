@@ -1,0 +1,56 @@
+-------------------------------------------------------------------------------
+Test set: tests.GalenTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 82.689 sec <<< FAILURE! - in tests.GalenTest
+homePageDesktop(tests.GalenTest)  Time elapsed: 0.022 sec  <<< FAILURE!
+java.io.FileNotFoundException: /spec/home-desktop
+	at com.galenframework.speclang2.reader.pagespec.PageSpecReader.read(PageSpecReader.java:43)
+	at com.galenframework.api.Galen.checkLayout(Galen.java:66)
+	at com.galenframework.api.Galen.checkLayout(Galen.java:58)
+	at com.galenframework.api.Galen.checkLayout(Galen.java:138)
+	at com.galenframework.testng.GalenTestNgTestBase.checkLayout(GalenTestNgTestBase.java:121)
+	at com.galenframework.testng.GalenTestNgTestBase.checkLayout(GalenTestNgTestBase.java:107)
+	at tests.GalenTest.homePageDesktop(GalenTest.java:31)
+
+homePageDesktop(tests.GalenTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.io.FileNotFoundException: /spec/home-desktop
+	at com.galenframework.speclang2.reader.pagespec.PageSpecReader.read(PageSpecReader.java:43)
+	at com.galenframework.api.Galen.checkLayout(Galen.java:66)
+	at com.galenframework.api.Galen.checkLayout(Galen.java:58)
+	at com.galenframework.api.Galen.checkLayout(Galen.java:138)
+	at com.galenframework.testng.GalenTestNgTestBase.checkLayout(GalenTestNgTestBase.java:121)
+	at com.galenframework.testng.GalenTestNgTestBase.checkLayout(GalenTestNgTestBase.java:107)
+	at tests.GalenTest.homePageDesktop(GalenTest.java:31)
+
+homePageDesktop(tests.GalenTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.io.FileNotFoundException: /spec/home-desktop
+	at com.galenframework.speclang2.reader.pagespec.PageSpecReader.read(PageSpecReader.java:43)
+	at com.galenframework.api.Galen.checkLayout(Galen.java:66)
+	at com.galenframework.api.Galen.checkLayout(Galen.java:58)
+	at com.galenframework.api.Galen.checkLayout(Galen.java:138)
+	at com.galenframework.testng.GalenTestNgTestBase.checkLayout(GalenTestNgTestBase.java:121)
+	at com.galenframework.testng.GalenTestNgTestBase.checkLayout(GalenTestNgTestBase.java:107)
+	at tests.GalenTest.homePageDesktop(GalenTest.java:31)
+
+homePageDesktop(tests.GalenTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.io.FileNotFoundException: /spec/home-desktop
+	at com.galenframework.speclang2.reader.pagespec.PageSpecReader.read(PageSpecReader.java:43)
+	at com.galenframework.api.Galen.checkLayout(Galen.java:66)
+	at com.galenframework.api.Galen.checkLayout(Galen.java:58)
+	at com.galenframework.api.Galen.checkLayout(Galen.java:138)
+	at com.galenframework.testng.GalenTestNgTestBase.checkLayout(GalenTestNgTestBase.java:121)
+	at com.galenframework.testng.GalenTestNgTestBase.checkLayout(GalenTestNgTestBase.java:107)
+	at tests.GalenTest.homePageDesktop(GalenTest.java:31)
+
+homePageMobile(tests.GalenTest)  Time elapsed: 13.371 sec  <<< FAILURE!
+java.lang.RuntimeException: Incorrect layout: Check layout /spec/home-page-mobile.spec
+	at com.galenframework.testng.GalenTestNgTestBase.checkLayout(GalenTestNgTestBase.java:125)
+	at com.galenframework.testng.GalenTestNgTestBase.checkLayout(GalenTestNgTestBase.java:107)
+	at tests.GalenTest.homePageMobile(GalenTest.java:25)
+
+homePageMobile(tests.GalenTest)  Time elapsed: 8.986 sec  <<< FAILURE!
+java.lang.RuntimeException: Incorrect layout: Check layout /spec/home-page-mobile.spec
+	at com.galenframework.testng.GalenTestNgTestBase.checkLayout(GalenTestNgTestBase.java:125)
+	at com.galenframework.testng.GalenTestNgTestBase.checkLayout(GalenTestNgTestBase.java:107)
+	at tests.GalenTest.homePageMobile(GalenTest.java:25)
+
