@@ -27,7 +27,8 @@ public class GalenTest extends GalenTestBase{
     }
 
     @Test (dataProvider = "devices")
-    public void homePageDesktop (TestDevice device) throws IOException {
+    public void homePageDesktop (TestDevice device) throws IOException, InterruptedException {
+        Thread.sleep(5000);
         checkLayout("/spec/home-desktop", device.getTags());
     }
 
