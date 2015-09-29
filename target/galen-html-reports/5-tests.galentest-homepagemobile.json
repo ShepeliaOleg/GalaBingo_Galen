@@ -1,0 +1,211 @@
+{
+  "testId" : "5-tests.galentest-homepagemobile",
+  "name" : "tests.GalenTest#homePageMobile",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout /spec/home-page-mobile.spec",
+      "status" : "error",
+      "time" : 1443525823248,
+      "includedTags" : [ "mobile" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Header",
+        "objects" : [ {
+          "name" : "logo",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "/spec/home-page-mobile.spec",
+              "lineNumber" : 14
+            },
+            "name" : "height 65px",
+            "errors" : [ "\"logo\" height is 64px instead of 65px" ],
+            "highlight" : [ "logo" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "/spec/home-page-mobile.spec",
+              "lineNumber" : 15
+            },
+            "name" : "width  65px",
+            "errors" : [ "\"logo\" width is 63px instead of 65px" ],
+            "highlight" : [ "logo" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "/spec/home-page-mobile.spec",
+              "lineNumber" : 16
+            },
+            "name" : "near join_now-button -32 to 44px right",
+            "errors" : [ "\"logo\" is -240px right which is not in range of -32 to 44px" ],
+            "highlight" : [ "logo", "join_now-button" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "/spec/home-page-mobile.spec",
+              "lineNumber" : 17
+            },
+            "name" : "inside container-header 5px top",
+            "errors" : [ "\"logo\" is 0px top instead of 5px" ],
+            "highlight" : [ "logo", "container-header" ]
+          } ]
+        }, {
+          "name" : "menu-mobile",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "/spec/home-page-mobile.spec",
+              "lineNumber" : 20
+            },
+            "name" : "height 45px",
+            "errors" : [ "\"menu-mobile\" height is 40px instead of 45px" ],
+            "highlight" : [ "menu-mobile" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "/spec/home-page-mobile.spec",
+              "lineNumber" : 21
+            },
+            "name" : "width  45px",
+            "errors" : [ "\"menu-mobile\" width is 40px instead of 45px" ],
+            "highlight" : [ "menu-mobile" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/spec/home-page-mobile.spec",
+              "lineNumber" : 22
+            },
+            "name" : "inside container-header",
+            "highlight" : [ "menu-mobile", "container-header" ]
+          } ]
+        }, {
+          "name" : "join_now-button",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "/spec/home-page-mobile.spec",
+              "lineNumber" : 25
+            },
+            "name" : "width 79px",
+            "errors" : [ "\"join_now-button\" width is 78px instead of 79px" ],
+            "highlight" : [ "join_now-button" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "/spec/home-page-mobile.spec",
+              "lineNumber" : 26
+            },
+            "name" : "height 45px",
+            "errors" : [ "\"join_now-button\" height is 40px instead of 45px" ],
+            "highlight" : [ "join_now-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/spec/home-page-mobile.spec",
+              "lineNumber" : 27
+            },
+            "name" : "text is \"Join Now\"",
+            "highlight" : [ "join_now-button" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "/spec/home-page-mobile.spec",
+              "lineNumber" : 28
+            },
+            "name" : "inside container-header 0px right",
+            "errors" : [ "\"join_now-button\" is 4px right instead of 0px" ],
+            "highlight" : [ "join_now-button", "container-header" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "/spec/home-page-mobile.spec",
+              "lineNumber" : 29
+            },
+            "name" : "inside logo 95 to 100px left",
+            "errors" : [ "\"join_now-button\" is 162px left which is not in range of 95 to 100px" ],
+            "highlight" : [ "join_now-button", "logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/spec/home-page-mobile.spec",
+              "lineNumber" : 30
+            },
+            "name" : "inside container-header",
+            "highlight" : [ "join_now-button", "container-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/spec/home-page-mobile.spec",
+              "lineNumber" : 31
+            },
+            "name" : "color-scheme 80 to 100% #ec028d",
+            "highlight" : [ "join_now-button" ]
+          } ]
+        }, {
+          "name" : "container-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/spec/home-page-mobile.spec",
+              "lineNumber" : 34
+            },
+            "name" : "width 300 to 420px",
+            "highlight" : [ "container-header" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "/spec/home-page-mobile.spec",
+              "lineNumber" : 35
+            },
+            "name" : "height 45px",
+            "errors" : [ "\"container-header\" height is 49px instead of 45px" ],
+            "highlight" : [ "container-header" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Banner",
+        "objects" : [ {
+          "name" : "banner",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "/spec/home-page-mobile.spec",
+              "lineNumber" : 41
+            },
+            "name" : "height 149px",
+            "errors" : [ "\"banner\" height is 500px instead of 149px" ],
+            "highlight" : [ "banner" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "/spec/home-page-mobile.spec",
+              "lineNumber" : 42
+            },
+            "name" : "width  300 to 400px",
+            "errors" : [ "\"banner\" width is 419px which is not in range of 300 to 400px" ],
+            "highlight" : [ "banner" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "join_now-button" : {
+          "area" : [ 337, 4, 78, 40 ]
+        },
+        "logo" : {
+          "area" : [ 175, 0, 63, 64 ]
+        },
+        "banner" : {
+          "area" : [ 0, 49, 419, 500 ]
+        },
+        "menu-mobile" : {
+          "area" : [ 4, 5, 40, 40 ]
+        },
+        "container-header" : {
+          "area" : [ 0, 0, 419, 49 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

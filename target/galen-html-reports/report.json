@@ -1,0 +1,115 @@
+{
+  "tests" : [ {
+    "name" : "tests.GalenTest#homePageDesktop",
+    "startedAt" : 1443525780595,
+    "endedAt" : 1443525780595,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 1,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 1
+    },
+    "testId" : "1-tests.galentest-homepagedesktop",
+    "duration" : 0,
+    "failed" : false
+  }, {
+    "name" : "tests.GalenTest#homePageDesktop",
+    "startedAt" : 1443525789022,
+    "endedAt" : 1443525789022,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 1,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 1
+    },
+    "testId" : "2-tests.galentest-homepagedesktop",
+    "duration" : 0,
+    "failed" : false
+  }, {
+    "name" : "tests.GalenTest#homePageDesktop",
+    "startedAt" : 1443525797278,
+    "endedAt" : 1443525797278,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 1,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 1
+    },
+    "testId" : "3-tests.galentest-homepagedesktop",
+    "duration" : 0,
+    "failed" : false
+  }, {
+    "name" : "tests.GalenTest#homePageDesktop",
+    "startedAt" : 1443525805445,
+    "endedAt" : 1443525805445,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 1,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 1
+    },
+    "testId" : "4-tests.galentest-homepagedesktop",
+    "duration" : 0,
+    "failed" : false
+  }, {
+    "name" : "tests.GalenTest#homePageMobile",
+    "startedAt" : 1443525813583,
+    "endedAt" : 1443525813583,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 5,
+      "errors" : 13,
+      "warnings" : 0,
+      "total" : 18
+    },
+    "testId" : "5-tests.galentest-homepagemobile",
+    "duration" : 0,
+    "failed" : true
+  }, {
+    "name" : "tests.GalenTest#homePageMobile",
+    "startedAt" : 1443525826582,
+    "endedAt" : 1443525826582,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 0,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 0
+    },
+    "testId" : "6-tests.galentest-homepagemobile",
+    "duration" : 0,
+    "failed" : false
+  }, {
+    "name" : "tests.GalenTest#homePageMobile",
+    "startedAt" : 1443525838014,
+    "endedAt" : 1443525838014,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 0,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 0
+    },
+    "testId" : "7-tests.galentest-homepagemobile",
+    "duration" : 0,
+    "failed" : false
+  }, {
+    "name" : "tests.GalenTest#homePageMobile",
+    "startedAt" : 1443525849759,
+    "endedAt" : 1443525849759,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 4,
+      "errors" : 14,
+      "warnings" : 0,
+      "total" : 18
+    },
+    "testId" : "8-tests.galentest-homepagemobile",
+    "duration" : 0,
+    "failed" : true
+  } ]
+}
